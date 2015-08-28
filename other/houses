@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Fonts from Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Biryani:400,600|Pacifico' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title>Advanced</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="box other">
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../planets/main.html" >Planets</a>
+        </li>
+        <li>
+          <a href="../signs/main.html">Signs</a>
+        </li>
+        <li>
+          <a href="../other/main.html" class="active">Advanced</a>
+        </li>
+      </ul>
+    </nav>
+    
+    <h1 class="title">
+      Advanced
+    </h1>
+  </header>
+  <div class="box page-one">
+    
+    <h1 class="header">Super Knowledge</h1>
+    <div class="content">
+      <p>
+        The houses represent the fields of experience wherein the energies of the signs and planets operate. Rather than symbolizing just the outward experiences and environmental circumstances specified by most traditional astrology, the houses are also revealing of the inner state and of one's personal subjective experience and attitudes. By noting the planets' placements in the natal chart, an astrologer can tell which levels and areas of experience will be strongly emphasized in a person's life.
+
+The keyword system discussed on the following pages is meant to clarify interpretation and understanding primarily of the psychological and inner significance of the houses. It is an attempt to perceive the essential meanings of the fields of experience known as the “houses." If the essential meanings are understood, they can then be applied to and illuminate all the diverse activities and experiences traditionally symbolized by the houses.
+      </p>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="col">
+      <a href="../planets/main.html">
+        <strong> Planets </strong> </a>
+      <br>
+      <a href="../planets/sun.html">Sun</a>
+      <br>
+      <a href="../planets/moon.html">Moon</a>
+      <br>
+      <a href="../planets/mercury.html">Mercury</a>
+      <br>
+      <a href="../planets/venus.html">Venus</a>
+      <br>
+      <a href="../planets/mars.html">Mars</a>
+      <br>
+      <a href="../planets/jupiter.html">Jupiter</a>
+      <br>
+      <a href="../planets/saturn.html">Saturn</a>
+      <br>
+      <a href="../planets/uranus.html">Uranus</a>
+      <br>
+      <a href="../planets/neptune.html">Neptune</a>
+      <br>
+      <a href="../planets/pluto.html">Pluto</a>
+      <br>
+    </div>
+
+    <div class="col">
+      <a href="../signs/main.html"><strong> Signs </strong> </a>
+      <br>
+      <a href="../signs/aries.html">Aries</a>
+      <br>
+      <a href="../signs/taurus.html">Taurus</a>
+      <br>
+      <a href="../signs/gemini.html">Gemini</a>
+      <br>
+      <a href="../signs/cancer.html">Cancer</a>
+      <br>
+      <a href="../signs/leo.html">Leo</a>
+      <br>
+      <a href="../signs/virgo.html">Virgo</a>
+      <br>
+      <a href="../signs/libra.html">Libra</a>
+      <br>
+      <a href="../signs/scorpio.html">Scorpio</a>
+      <br>
+      <a href="../signs/sagittarius.html">Sagittarius</a>
+      <br>
+      <a href="../signs/capricorn.html">Capricorn</a>
+      <br>
+      <a href="../signs/aquarius.html">Aquarius</a>
+      <br>
+      <a href="../signs/pisces.html">Pisces</a>
+      <br>
+    </div>
+
+    <div class="col">
+      <a href="main.html">
+        <strong> Advanced </strong> </a>
+      <br>
+      <a href="aspects.html">Planetary Aspects</a>
+      <br>
+      <a href="houses.html">Houses</a>
+      <br>
+      <a href="history.html">History</a>
+      <br>
+      <a href="lilith.html">Lilith</a>
+      <br>
+      <a href="nodes.html">Lunar Nodes</a>
+      <br>
+      <a href="special.html">Phenomena </a>
+      <br>
+    </div>
+  </footer>
+</body>
+</html>

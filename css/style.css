@@ -1,0 +1,281 @@
+body {
+ background: black;
+}
+
+nav {
+  /* Font */
+  font-family: 'Biryani', 'Noto Sans', sans-serif;
+  font-size: 13px;
+  text-align: right;
+  color: white;
+    border: none
+}
+
+a {
+  color: lightgrey;
+}
+
+a:hover {
+  color: aqua;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
+nav a:hover {
+  color: aqua;
+  border-bottom: 5px solid white;
+}
+
+footer {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.active {
+  color: aqua;
+}
+
+nav li {
+  /* Formatting for List */
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+.box {
+  height: 850px;
+}
+
+.title {
+  /* Sizing */
+  width: 75%;
+
+  /* Font */
+  font-family: 'Pacifico', sans-serif;
+    font-size: 55px;
+  color: white;
+  text-shadow: 3px 3px black;
+  text-align: center;
+
+
+  /* Formatting of Header Box */
+  /* border: 5px solid white; */
+  padding: 20px;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+
+  /* Positioning */
+  position: relative;
+  top: 35%;
+  right: 30%;
+  margin: 0 auto;
+}
+
+.header {
+  /* Sizing */
+  width: 75%;
+
+  /* Font */
+  font-family: 'Biryani', sans-serif;
+  color: white;
+  text-align: center;
+
+  /* Formatting of Header Box */
+  /* border: 5px solid white; */
+  padding: 20px;
+/*  background-color: rgba(0, 0, 0, 0.5);*/
+
+  /* Positioning */
+  position: relative;
+  top: 10%;
+  margin: 0 auto;
+}
+
+.content {
+  /* Sizing */
+  width: 90%;
+
+  /* Font */
+  font-family: 'Biryani', 'Noto Sans', sans-serif;
+  color: white;
+  text-align: justify;
+
+  /* Formatting */
+  padding: 5px 10px;
+  background-color:  rgba(0, 0, 0, 0.5);
+
+
+  /* Positioning */
+  position: relative;
+  top: 10%;
+  margin: auto;
+}
+
+.no-title {
+  /* Positioning */
+  top: 5%;
+}
+
+.col {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px ;
+    float:left;
+    color: blue;
+    font-size: 11px;
+    font-family: 'Biryani';
+    border: none;
+}
+
+.main {
+  background: url("http://i.imgur.com/abWYtpp.jpg");
+  background-size: cover;
+}
+
+.planets {
+  background: url("http://i.imgur.com/abWYtpp.jpg");
+  background-size: cover;
+}
+
+.sun {
+  background: url("http://i.imgur.com/XOAlcDz.png");
+  background-size: cover;
+}
+
+.moon {
+  background: url("http://i.imgur.com/W6dUM73.jpg");
+  background-size: cover;
+}
+
+.mercury {
+  background: url("https://i.imgur.com/vfA7gxI.jpg");
+  background-size: cover;
+}
+
+.venus {
+  background: url("http://i.imgur.com/tSGcIqe.jpg");
+  background-size: cover;
+}
+
+.mars {
+  background: url("http://i.imgur.com/tHEKmuI.jpg");
+  background-size: cover;
+}
+
+.jupiter {
+  background: url("http://i.imgur.com/L3d163k.png");
+  background-size: cover;
+}
+
+.saturn {
+  background: url("http://i.imgur.com/3bET3U5.jpg");
+  background-size: cover;
+}
+
+.uranus {
+  background: url("http://i.imgur.com/RG5cUAc.jpg");
+  background-size: cover;
+}
+
+.neptune {
+  background: url("http://i.imgur.com/w5JPo5o.jpg");
+}
+
+.pluto {
+  background: url("http://i.imgur.com/ogBEXbk.jpg");
+  background-size: cover;
+}
+.far-planets {
+  background: url("https://i.imgur.com/qSRkanc.jpg");
+  background-size: cover;
+}
+
+.other {
+  background: url("http://i.imgur.com/abWYtpp.jpg");
+  background-size: cover;
+}
+
+.signs {
+  background: url("http://i.imgur.com/abWYtpp.jpg");
+  background-size: cover;
+}
+
+.aquarius {
+  background: url("http://i.imgur.com/Ue1IgbR.jpg");
+  background-size: cover;
+}
+
+.aries {
+  background: url("http://i.imgur.com/OoRa9EG.jpg");
+  background-size: cover;
+}
+
+.cancer {
+  background: url("http://i.imgur.com/oiry4bc.jpg");
+  background-size: cover;
+}
+
+.capricorn {
+  background: url("http://i.imgur.com/qEjxPMc.jpg");
+  background-size: cover;
+}
+
+.gemini {
+  background: url("http://i.imgur.com/nEfbiP0.jpg");
+  background-size: cover;
+}
+
+.leo {
+  background: url("http://i.imgur.com/z8BiJrU.jpg");
+  background-size: cover;
+}
+
+.libra {
+  background: url("http://i.imgur.com/vakmfW2.jpg");
+  background-size: cover;
+}
+
+.pisces {
+  background: url("http://i.imgur.com/ubYJbHS.jpg");
+  background-size: cover;
+}
+
+.sagittarius {
+  background: url("http://i.imgur.com/KnDQI5a.jpg");
+  background-size: cover;
+}
+
+.scorpio {
+  background: url("http://i.imgur.com/DFDUka9.jpg");
+  background-size: cover;
+}
+
+.taurus {
+  background: url("http://i.imgur.com/v3txmmh.jpg");
+  background-size: cover;
+}
+
+.virgo {
+  background: url("http://i.imgur.com/7FvnHKp.jpg");
+  background-size: cover;
+}
+
+.aspects {
+  background: url("https://i.imgur.com/2tP1WS0.jpg");
+  background-size: cover;
+}
+
+[id|="house"] {
+  width: 100%;
+}
+
+#end {
+  top: 40%;
+}

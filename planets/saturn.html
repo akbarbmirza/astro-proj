@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Fonts from Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans|Biryani:400,600|Pacifico' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title>Saturn</title>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="box saturn">
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../planets/main.html" class="active">Planets</a>
+        </li>
+        <li>
+          <a href="../signs/main.html">Signs</a>
+        </li>
+        <li>
+          <a href="../other/main.html">Advanced</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1 class="title">
+      Saturn
+    </h1>
+  </header>
+
+  <div class="content">
+    <p>
+        <img style="margin:8px 12px 0 0; border:0;" src="data:image/png;base64,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" align="left" alt="Saturn glyph symbol">
+Saturn presents challenges to us which make us grow up. Saturn represents restrictions, limitations, delays and authority. If you've ever heard your parents tell you they were doing something for your own good, well, that's Saturn for 'ya.
+    </p>
+    <p>
+Structure and discipline are needed for governments, society, and civilization to succeed. Saturn keeps reminding us how true that is and makes sure we learn it. Saturn energy also affects our body's growth. Too much Saturn energy can cause overgrowth, such as calcifications appearing where they shouldn't. In our culture, too much Saturn energy is reflected in the rule of tyrants and dictators.
+    </p>
+    <p>        
+Just like listening to your parents, our Saturn sign is out to teach us mastery over our lives. And, as usual, that means plain hard work and practice, practice, practice. Saturn is a big fan of the schools of hard knocks, and trial and error. What better way is there to learn, right? For some of us, that means being ridiculed for our errors, feeling inadequate and inferior. Feeling like you need to measure up to a standard is part of your Saturn Sign's lesson.
+    </p>
+    <p>
+Even with all this negativity, Saturn is also in control of cultural achievement. CEOs and government officials often have a strong Saturn influence. Rigid cultural systems of behavior, such as strict religions, are very Saturnine in their development.
+    </p>
+    <p>
+Those people who are described as having a Saturnine disposition are usually rather grim and without humor. Those with a strong Saturn influence may feel overwhelmed by the challenges they face in life and may proceed with excessive caution. On the other hand, someone with a prominent Saturn may achieve quite a bit, overcoming their adversity with sheer determination. These achievements may be material, financial or spiritual. Remember, it is how we REACT to our challenges that determine our success, not the circumstances that we go through.
+    </p>
+    <p>
+<h1><center>Saturn Signs </center> </h1> 
+Seriousness keeps us on the straight and narrow, forcing us to go through lessons we may otherwise wish to avoid. This balances out the optimism given by Jupiter. This planet will define your sense of responsibility by bringing definition and setting limits and rules. Depending on your outlook, your Saturn sign can actually be helpful in guiding your achievements and focus in life. 
+    </p>
+    <p>
+Saturn helps us mature. It takes almost 30 years for Saturn to finish it's orbit (27 to be exact), so is it any wonder there is a big difference in those under 30 and those over that age? After its long orbit, when it returns to where it was in relation to the sun when someone was born, it's in opposition to the Saturn in our natal chart. This is just about the time where the proverbial "mid life crisis" sets in. This is the age where decisions are made that can result in a vibrant, active older life or one of disappointment and depression. Saturn will cause challenges to show up, but does not directly dictate your destiny. Nothing does.
+    </p>
+    <p>
+As the planets get further from the sun, their orbits take longer, and thus it is easier to calculate what each our Planetary signs are. 
+        <br> <center> <a href="far-planet-tables.html" target="blank">Calculate your saturn sign. </center> </a>
+    </p>
+
+  
+
+<center><img style="margin:8px 12px 0 0; border:0;" src="data:image/png;base64,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" alt="Saturn glyph symbol"></center>
+   <br>
+    <center> <table border="3px" style="border-style:solid; border-color:#993300; width:480px; margin-left:35px; margin-right:35px;">
+           <h2>What are you?</h2><tbody><tr>
+ <td>
+<a href="../signs/aries.html#aries_saturn"> Saturn in Aries </a> </a> </td>
+<td> <a href="../signs/taurus.html#taurus_saturn"> Saturn in Taurus</a> </td>
+<td> <a href="../signs/gemini.html#gemini_saturn"> Saturn in Gemini</a> </td>
+</tr>
+<tr>
+    
+<td> <a href="../signs/cancer.html#cancer_saturn"> Saturn in Cancer</a></td>
+<td> <a href="../signs/leo.html#leo_saturn"> Saturn in Leo</a> </td>
+<td> <a href="../signs/virgo.html#virgo_saturn"> Saturn in Virgo</a> </td>
+</tr>
+<tr>
+
+<td> <a href="../signs/libra.html#libra_saturn"> Saturn in Libra</a> </td>
+<td> <a href="../signs/scorpio.html#scorp_saturn"> Saturn in Scorpio</a> </td>
+<td> <a href="../signs/sagittarius.html#sag_saturn"> Saturn in Sagittarius </a> </td>
+</tr>
+<tr>
+
+<td> <a href="../signs/capricorn.html#cap_saturn"> Saturn in Capricorn</a> </td>
+<td> <a href="../signs/aquarius.html#aqua_saturn"> Saturn in Aquarius</a> </td>
+<td> <a href="../signs/pisces.html#pisces_saturn"> Saturn in Pisces</a> </td>
+</tr>
+</tbody></table> </center>
+<br>
+    <hr>
+    <br>
+<br> <br>
+    
+    </div>
+  <footer>
+    <div class="col">
+      <a href="main.html">
+        <strong> Planets </strong> </a>
+      <br>
+      <a href="sun.html">Sun</a>
+      <br>
+      <a href="moon.html">Moon</a>
+      <br>
+      <a href="mercury.html">Mercury</a>
+      <br>
+      <a href="venus.html">Venus</a>
+      <br>
+      <a href="mars.html">Mars</a>
+      <br>
+      <a href="jupiter.html">Jupiter</a>
+      <br>
+      <a href="saturn.html">Saturn</a>
+      <br>
+      <a href="uranus.html">Uranus</a>
+      <br>
+      <a href="neptune.html">Neptune</a>
+      <br>
+      <a href="pluto.html">Pluto</a>
+      <br>
+    </div>
+
+    <div class="col">
+      <a href="../signs/main.html"><strong> Signs </strong> </a>
+      <br>
+      <a href="../signs/aries.html">Aries</a>
+      <br>
+      <a href="../signs/taurus.html">Taurus</a>
+      <br>
+      <a href="../signs/gemini.html">Gemini</a>
+      <br>
+      <a href="../signs/cancer.html">Cancer</a>
+      <br>
+      <a href="../signs/leo.html">Leo</a>
+      <br>
+      <a href="../signs/virgo.html">Virgo</a>
+      <br>
+      <a href="../signs/libra.html">Libra</a>
+      <br>
+      <a href="../signs/scorpio.html">Scorpio</a>
+      <br>
+      <a href="../signs/sagittarius.html">Sagittarius</a>
+      <br>
+      <a href="../signs/capricorn.html">Capricorn</a>
+      <br>
+      <a href="../signs/aquarius.html">Aquarius</a>
+      <br>
+      <a href="../signs/pisces.html">Pisces</a>
+      <br>
+    </div>
+
+    <div class="col">
+      <a href="../other/main.html">
+        <strong> Advanced </strong> </a>
+      <br>
+      <a href="../other/aspects.html">Planetary Aspects</a>
+      <br>
+      <a href="../other/houses.html">Houses</a>
+      <br>
+      <a href="../other/midheaven.html">Midheaven</a>
+      <br>
+      <a href="../other/Ascendant.html">Ascendant</a>
+      <br>
+      <a href="../other/nodes.html">Lunar Nodes</a>
+      <br>
+      <a href="../other/asteriods.html">Phenomena </a>
+      <br>
+    </div>
+  </footer>
+</body>
+
+</html>
